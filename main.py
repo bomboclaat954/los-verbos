@@ -76,7 +76,7 @@ def cmd_add():
 
 
 def main():
-    print("CONJUGACIÓN DE VERBOS (PRESENTE) v1.0")
+    print("Los Verbos v1.0")
     v = input("Verbo: ")
     if v == "\\a":
         cmd_add()
