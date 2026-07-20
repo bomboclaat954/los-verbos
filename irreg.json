@@ -1,0 +1,82 @@
+{
+    "ser": {
+        "1": "soy",
+        "2": "eres",
+        "3": "es",
+        "4": "somos",
+        "5": "sois",
+        "6": "son"
+    },
+    "estar": {
+        "1": "estoy",
+        "2": "est\u00e1s",
+        "3": "est\u00e1",
+        "4": "estamos",
+        "5": "est\u00e1is",
+        "6": "est\u00e1n"
+    },
+    "tener": {
+        "1": "tengo",
+        "2": "tienes",
+        "3": "tiene",
+        "4": "tenemos",
+        "5": "ten\u00e9is",
+        "6": "tienen"
+    },
+    "hacer": {
+        "1": "hago",
+        "2": "haces",
+        "3": "hace",
+        "4": "hacemos",
+        "5": "hac\u00e9is",
+        "6": "hacen"
+    },
+    "ir": {
+        "1": "voy",
+        "2": "vas",
+        "3": "va",
+        "4": "vamos",
+        "5": "vais",
+        "6": "van"
+    },
+    "decir": {
+        "1": "digo",
+        "2": "dices",
+        "3": "dice",
+        "4": "decimos",
+        "5": "dec\u00eds",
+        "6": "dicen"
+    },
+    "poder": {
+        "1": "puedo",
+        "2": "puedes",
+        "3": "puede",
+        "4": "podemos",
+        "5": "pod\u00e9is",
+        "6": "pueden"
+    },
+    "saber": {
+        "1": "s\u00e9",
+        "2": "sabes",
+        "3": "sabe",
+        "4": "sabemos",
+        "5": "sab\u00e9is",
+        "6": "saben"
+    },
+    "querer": {
+        "1": "quiero",
+        "2": "quieres",
+        "3": "quiere",
+        "4": "queremos",
+        "5": "quer\u00e9is",
+        "6": "quieren"
+    },
+    "dar": {
+        "1": "doy",
+        "2": "das",
+        "3": "da",
+        "4": "damos",
+        "5": "d\u00e1is",
+        "6": "dan"
+    }
+}
