@@ -29,3 +29,4 @@ To add your own irregular verbs run the program, and instead of typing a verb ty
 # Notes
 
 1. The app's language is Spanish but if you speak English, you'll understand everything.
+2. Verbs are conjugated in the present tense (_el presente del indicativo_)
