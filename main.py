@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 def ar(v):
@@ -63,21 +64,22 @@ def cmd_add():
         f_current = f.read()
 
     if f_current[-1] == "}":
-        f_current = f_current[:-1]
-    else:
         f_current = f_current[:-2]
+    else:
+        f_current = f_current[:-3]
 
     j = json.dumps(
-        {"1": form1, "2": form2, "3": form3, "4": form4, "5": form5, "6": form6}
-    )
-    f_current += f', "{inf}": {j}' + "}"
+        {"1": form1, "2": form2, "3": form3, "4": form4, "5": form5, "6": form6},
+        indent=4,
+        ensure_ascii=False,
+    ).replace("\n", "\n\t")
+    f_current += f',\n\t"{inf}": {j}\t' + "\t\n}"
     with open("irreg.json", "w") as f:
         f.write(f_current)
 
 
-def main():
-    print("Los Verbos v1.0")
-    v = input("Verbo: ")
+def main(v):
+    print("Los Verbos v1.1")
     if v == "\\a":
         cmd_add()
     elif irreg(v) == 0:
@@ -93,6 +95,10 @@ def main():
 
 if __name__ == "__main__":
     try:
-        main()
+        v = sys.argv[1]
+        if not v:
+            print("No se proporcionó ningún verbo!")
+            exit()
+        main(v)
     except KeyboardInterrupt:
         exit()

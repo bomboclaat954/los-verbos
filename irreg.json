@@ -78,5 +78,77 @@
         "4": "damos",
         "5": "d\u00e1is",
         "6": "dan"
+    },
+    "haber": {
+        "1": "he",
+        "2": "has",
+        "3": "hay",
+        "4": "hemos",
+        "5": "hab\u00e9is",
+        "6": "han"
+    },
+    "poner": {
+        "1": "pongo",
+        "2": "pones",
+        "3": "pone",
+        "4": "ponemos",
+        "5": "pon\u00e9is",
+        "6": "ponen"
+    },
+    "ver": {
+        "1": "veo",
+        "2": "ves",
+        "3": "ve",
+        "4": "vemos",
+        "5": "veis",
+        "6": "ven"
+    },
+    "encontrar": {
+        "1": "encuentro",
+        "2": "encuentras",
+        "3": "encuentra",
+        "4": "encontramos",
+        "5": "encontr\u00e1is",
+        "6": "encuentran"
+    },
+    "venir": {
+        "1": "vengo",
+        "2": "vienes",
+        "3": "viene",
+        "4": "venimos",
+        "5": "ven\u00eds",
+        "6": "vienen"
+    },
+    "pensar": {
+        "1": "pienso",
+        "2": "piensas",
+        "3": "piensa",
+        "4": "pensamos",
+        "5": "pens\u00e1is",
+        "6": "piensan"
+    },
+    "conocer": {
+        "1": "conozco",
+        "2": "conoces",
+        "3": "conoce",
+        "4": "conocemos",
+        "5": "conoc\u00e9is",
+        "6": "conocen"
+    },
+    "sentir": {
+        "1": "siento",
+        "2": "sientes",
+        "3": "siente",
+        "4": "sentimos",
+        "5": "sent\u00eds",
+        "6": "sienten"
+    },
+    "volver": {
+        "1": "vuelvo",
+        "2": "vuelves",
+        "3": "vuelve",
+        "4": "volvemos",
+        "5": "volv\u00e9is",
+        "6": "vuelven"
     }
 }

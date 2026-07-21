@@ -19,12 +19,12 @@ $ cd los-verbos
 Now run it in your terminal
 
 ```bash
-$ python3 main.py
+$ python3 main.py <verb>
 ```
 
 # Adding own verbs
 
-To add your own irregular verbs run the program, and instead of typing a verb type `\a`.
+To add your own irregular verbs run the program, and instead of typing a verb type `\a` (if it doesn't work type `\\a`).
 
 # Notes
 
